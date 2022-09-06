@@ -23,8 +23,11 @@ public class Ejercicio_tema4{
         if(numeroIF>0){
             System.out.println("El número es positivo");
         }
-        else{
+        else if(numeroIF<0){
             System.out.println("El número es negativo");
+        }
+        else{
+            System.out.println("El número es cero");
         }
     }
     public static void segundo(){
